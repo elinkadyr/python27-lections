@@ -11,8 +11,8 @@ print(type(b)) # <class 'str'>
 c = int('10')
 print(type('c')) # <class 'int'>
 
-# int ('5a')
-# VAlueError: Invalid Literal for int () with base  10: 
+# int ('5a') - потому что не целое число
+# VAlueError: Invalid Literal for int () with base  10: - ошибка
 
 # float - числа с плавающей точкой (дробные)
 
@@ -85,6 +85,3 @@ from math import sqrt
 sqrt(25)   #5
 print(sqrt(25)) 
 sqrt(9)  #3
-
-
-
