@@ -74,3 +74,51 @@ price = 35
 string = f'Название: {title}, Цена: {price}'
 print(string)
 
+format1 = 'Название: %s, Цена: %s'
+print(format1 %('Яблоко', 80))
+
+format2 = 'Название: {}, цена: {}'
+print(format2.format('Груша', 60))
+
+"===========Методы строк========"
+# метод - функция, которая принадлежит определенному типу данных, обращаемся к ней через точку
+# dir все доступные методы для данного типа данных 
+#print (dir(str))
+print('hello'.upper())
+print('HELLO'.lower())
+print('hello WORLD'.swapcase())
+print('hello world'.title())
+print('hello world'.capitalize())
+print('hello world'.center(20))
+print('hello world'.center(20, '-'))
+print('hello world'.count('l'))
+print('hello world'.count('ll'))
+print('hello world'.count('Hello'))
+print('hello world'.count(''))           #пустые строки между символами
+print('hello world'.split())             # ['hello', 'world']
+print('hello world'.split('o'))          #
+print(' '.join(['hello', 'world']))      #hello world
+print('%'.join(['hello', 'world']))      #hello%world
+print('hello world'.find('w'))           #6
+print('hello world'.rfind ('o'))        #7 поиск буквы с конца
+
+string = '123456789a'
+print(string.isalpha())
+string = '123456789a'
+print(string.isalnum())
+string = '123456789a'
+print(string.isdigit())
+
+
+
+string1 = "Elina"
+string2 = "Kadyrov"
+print(string1[0] + string2[0] + string1[len(string1)//2] + string2[len(string2)//2] +string1[-1] + string2[-1])
+
+string1 = 'Hello'
+string2 = 'World'
+print((string1+' '+string2+'\n')*3)
+
+string1 = 'Hello'
+string2 = 'World'
+print(string1+' '+string2)
