@@ -12,13 +12,13 @@ string6 = """Тут можно использовать 'Ciao bella'
 любые кавычки"""
 
 string7 = 'Hello' + ' ' + 'world' 
-print (string7)
+print(string7)
 
 string8 = 'hello ' * 3
-print (string8)
+print(string8)
 
 string9 = 'hello' + str(1)
-print (string9)
+print(string9)
 
 
 "============Экранизация строк============"
@@ -112,7 +112,7 @@ print(string.isdigit())
 
 
 string1 = "Elina"
-string2 = "Kadyrov"
+string2 = "Kadyrova"
 print(string1[0] + string2[0] + string1[len(string1)//2] + string2[len(string2)//2] +string1[-1] + string2[-1])
 
 string1 = 'Hello'
