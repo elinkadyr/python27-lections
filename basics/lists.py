@@ -81,27 +81,71 @@
 # print(list1)
 
 #count -  считает количество элемента который передаем в метод в списке
-list2 = [1, 2, 1, 4, 5, 1, 7, 8, 9, 1]
-print(list2.count(1))
+# list2 = [1, 2, 1, 4, 5, 1, 7, 8, 9, 1]
+# print(list2.count(1))
 
-#index - возвращает индекс данного элемента
-list4 = ['hello', 'world', 'makers']
-print(list4.index('makers'))
-ind1 = list4.index('hello')
-print(ind1)
+# #index - возвращает индекс данного элемента
+# list4 = ['hello', 'world', 'makers']
+# print(list4.index('makers'))
+# ind1 = list4.index('hello')
+# print(ind1)
 
-# sort  
-list5 = [21,34,11]
-print(list5.sort())
+# # sort  
+# list5 = [21,34,11]
+# print(list5.sort())
 
-# copy - возвращает копию списка
-list1 = [1,2,3]
-list2 = list1.copy()
-list2.append(4)
-print(list1)
-print(list2)
+# # copy - возвращает копию списка
+# list1 = [1,2,3]
+# list2 = list1.copy()
+# list2.append(4)
+# print(list1)
+# print(list2)
 
-# extend - расширяет список другим списком
-list1 = [1,2,3,4]
-list2 = [5,6,7,8]
-#list1.append(list2) list1 1,2,3,4 [5,6,7,8]
+# # extend - расширяет список другим списком
+# list1 = [1,2,3,4]
+# list2 = [5,6,7,8]
+# list1.extend(list2) 
+# print(list1)
+# print(list2)
+
+# string = 'elinkaaaaaa'
+# print(string[:5]+'K'+string[6:])
+
+# a = [1,2,3]
+# b = (1,2,3)
+# a.extend('hi')
+
+
+# print(a)
+print(dir(list))
+# print(dir(str))
+# print(dir(int))
+# print(dir(dict))
+# print(dir(set))
+# print(dir(tuple))
+
+# words = ["hello", "world", "!"]
+# sentence = " ".join(words)
+# print(sentence)
+
+count = 0 
+number = input() 
+if number.isdigit(): 
+    number = int(number) 
+    count = count+number 
+    print(count)
+
+#6
+# nums = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# res = []
+# for i in nums:
+#     if i < 5:
+#         res.append(i)
+# print(res)
+
+
+#7
+# list_ = input().split(",") 
+# tuple_ = tuple(list_) 
+# print(list_) 
+# print(tuple_)

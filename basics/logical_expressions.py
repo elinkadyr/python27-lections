@@ -27,8 +27,8 @@
 #or или 
 #not не
 
-a = 5
-b = 6
+# a = 5
+# b = 6
 #print(a==5 and b==6)           ->true
 #print(a==4 and b==5)           ->false
 #print(a==4 or b==3)            ->false
@@ -133,10 +133,3 @@ b = 6
 
 # else:
 #     print(num)
-
-year = int(input())
-if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-    print('YES')
-else:
-    print('NO')
-
